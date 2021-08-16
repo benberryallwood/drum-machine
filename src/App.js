@@ -95,7 +95,9 @@ function App() {
     return (
         <div id="drum-machine" className="drum-machine">
             <div id="display" className="display">
-                {display}
+                <p>
+                    {display}
+                </p>
             </div>
             {drums.map(drum =>
                 <DrumPad

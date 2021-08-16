@@ -1,0 +1,64 @@
+$gb_dark0: #282828;
+$gb_dark1: #3c3836;
+$gb_dark2: #504945;
+$gb_dark4: #7c6f64;
+$gb_gray: #928374;
+
+$gb_neutral_purple: #b16286;
+$gb_bright_yellow: #fabd2f;
+$gb_neutral_aqua: #689d6a;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 3rem;
+    background-color: $gb_dark0;
+}
+
+.drum-machine {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0.4rem;
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    min-width: 300px;
+    min-height: 300px;
+    border: 4px solid $gb_gray;
+    border-radius: 16px;
+    padding: 1rem;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / 4;
+    width: 100%;
+    font-size: 2rem;
+    border: 2px solid $gb_gray;
+    border-radius: 4px;
+    padding: 0.3rem;
+    color: $gb_neutral_purple;
+}
+
+.drum-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gb_dark1;
+    color: $gb_bright_yellow;
+    align-self: center;
+    justify-self: center;
+    float: left;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    /*border: 2px solid black;*/
+    border-radius: 4px;
+}

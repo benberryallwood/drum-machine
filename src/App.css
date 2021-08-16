@@ -1,41 +1,56 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 3rem;
+  padding: 3rem;
+  background-color: #282828;
 }
 
 .drum-machine {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 0.4rem;
-    margin: auto;
-    width: 20%;
-    min-width: 300px;
-    border: 4px solid gray;
-    padding: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0.4rem;
+  margin: auto;
+  width: 40vw;
+  height: 40vw;
+  min-width: 300px;
+  min-height: 300px;
+  border: 4px solid #928374;
+  border-radius: 16px;
+  padding: 1rem;
 }
 
 .display {
-    grid-column: 1 / 4;
-    width: 100%;
-    font-size: 2rem;
-    border: 2px solid darkgray;
-    padding: 0.3rem;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/4;
+  width: 100%;
+  font-size: 2rem;
+  border: 2px solid #928374;
+  border-radius: 4px;
+  padding: 0.3rem;
+  color: #b16286;
 }
 
 .drum-pad {
-    align-self: center;
-    justify-self: center;
-    float: left;
-    margin: 0;
-    height: 50px;
-    width: 100%;
-    font-size: 2rem;
-    border: 2px solid black;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c3836;
+  color: #fabd2f;
+  align-self: center;
+  justify-self: center;
+  float: left;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  /*border: 2px solid black;*/
+  border-radius: 4px;
 }
+
+/*# sourceMappingURL=App.css.map */
