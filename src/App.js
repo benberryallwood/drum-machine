@@ -57,6 +57,7 @@ function DrumPad(props) {
     
     const padActivate = function() {
         const clip = document.getElementById(key);
+        clip.pause();
         clip.currentTime = 0;
         clip.play();
         props.changeDisplay(drumName);
