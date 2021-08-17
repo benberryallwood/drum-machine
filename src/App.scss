@@ -44,6 +44,7 @@ body {
     border-radius: 4px;
     padding: 0.3rem;
     color: $gb_neutral_purple;
+    cursor: default;
 }
 
 .drum-pad {
@@ -61,4 +62,5 @@ body {
     font-size: 2rem;
     /*border: 2px solid black;*/
     border-radius: 4px;
+    cursor: pointer;
 }

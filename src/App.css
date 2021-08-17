@@ -34,6 +34,7 @@ body {
   border-radius: 4px;
   padding: 0.3rem;
   color: #b16286;
+  cursor: default;
 }
 
 .drum-pad {
@@ -51,6 +52,7 @@ body {
   font-size: 2rem;
   /*border: 2px solid black;*/
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=App.css.map */
